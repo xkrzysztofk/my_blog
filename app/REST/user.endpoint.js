@@ -1,5 +1,5 @@
 import business from '../business/business.container';
-import applicationException from '../service/applicationException';
+import applicationException from '../public/service/applicationException';
 import admin from '../middleware/admin';
 import auth from '../middleware/auth';
 

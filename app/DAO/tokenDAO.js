@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
 import config from '../config';
-import momentWrapper from '../service/momentWrapper';
+import momentWrapper from '../public/service/momentWrapper';
 import jwt from 'jsonwebtoken';
-import mongoConverter from '../service/mongoConverter';
-import applicationException from '../service/applicationException';
+import mongoConverter from '../public/service/mongoConverter';
+import applicationException from '../public/service/applicationException';
 
 const tokenTypeEnum = {
   authorization: 'authorization'

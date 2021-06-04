@@ -1,7 +1,7 @@
 import PasswordDAO from '../DAO/passwordDAO';
 import TokenDAO from '../DAO/tokenDAO';
 import UserDAO from '../DAO/userDAO';
-import applicationException from '../service/applicationException';
+import applicationException from '../public/service/applicationException';
 import sha1 from 'sha1';
 
 function create(context) {

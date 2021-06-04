@@ -2,8 +2,8 @@
 import mongoose from 'mongoose';
 import * as _ from 'lodash';
 import Promise from 'bluebird';
-import applicationException from '../service/applicationException';
-import mongoConverter from '../service/mongoConverter';
+import applicationException from '../public/service/applicationException';
+import mongoConverter from '../public/service/mongoConverter';
 import uniqueValidator from 'mongoose-unique-validator';
 
 
